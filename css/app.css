@@ -83,7 +83,8 @@ a:hover {
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 b,
@@ -2216,6 +2217,11 @@ pre code {
 }
 
 .form-control:-ms-input-placeholder {
+  color: #636c72;
+  opacity: 1;
+}
+
+.form-control::-ms-input-placeholder {
   color: #636c72;
   opacity: 1;
 }

@@ -1,30 +1,33 @@
 {
-  "name": "tazeflikerevi",
-  "version": "1.0.0",
-  "description": "PSD to HTML Development",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0",
-    "gulp-livereload": "^3.8.1",
-    "gulp-postcss": "^7.0.0",
-    "autoprefixer": "^7.1.0",
-    "font-awesome": "^4.7.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@bitbucket.org/rahul_moral/tazeflikerevi.git"
-  },
-  "keywords": [
-    "HTML5",
-    "CSS3",
-    "bootstrap@4",
-    "SCSS"
-  ],
-  "author": "Rahul Moral",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/rahul_moral/tazeflikerevi#readme"
+ "name": "tazeflikerevi",
+ "version": "1.0.0",
+ "description": "PSD to HTML Development",
+ "main": "gulpfile.js",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "devDependencies": {
+  "gulp": "^3.9.1",
+  "gulp-sass": "^3.1.0",
+  "gulp-livereload": "^3.8.1",
+  "gulp-postcss": "^7.0.0",
+  "autoprefixer": "^7.2.1",
+  "font-awesome": "^4.7.0"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+ssh://git@bitbucket.org/rahul_moral/tazeflikerevi.git"
+ },
+ "keywords": [
+  "HTML5",
+  "CSS3",
+  "bootstrap@4",
+  "SCSS"
+ ],
+ "author": "Rahul Moral",
+ "license": "ISC",
+ "homepage": "https://bitbucket.org/rahul_moral/tazeflikerevi#readme",
+ "directories": {
+  "doc": "docs"
+ }
 }
