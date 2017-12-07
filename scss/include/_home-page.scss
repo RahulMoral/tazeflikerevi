@@ -1,0 +1,131 @@
+.tfe-home-ourservices{
+    background-color: #ffffff;
+    h2{
+        color: #000000;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 120%;
+        margin-bottom: 25px;
+        margin-top: 60px;
+    }
+    p{
+        color: #a2a2a4;
+        font-size: 14px;
+        line-height: 120%;
+        margin-bottom: 60px;
+    }
+    .tfe-home-ourservices-card{
+        position: relative;
+        .mask{
+            background-color: transparent;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            text-align: center;
+            top: 0;
+            transition: all 0.3s ease-in-out 0s;
+            width: 100%;
+            h1{
+                color: #ffffff;
+                display: none;
+                font-size: 50px;
+                font-weight: bold;
+                line-height: 120%;
+                margin-bottom: 30px;
+                transition: all 0.3s ease-in-out 0s;
+            }
+            p{
+                color: #ffffff;
+                display: none;
+                font-size: 14px;
+                font-weight: normal;
+                line-height: 24px;
+                margin-bottom: 40px;
+                transition: all 0.3s ease-in-out 0s;
+            }
+            a{
+                background-color: #5bcbe3;
+                border: 4px solid #ffffff;
+                color: #ffffff;
+                font-size: 17.93px;
+                padding: 15px 25px;
+                transition: background-color 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s;
+                &:hover,
+                &:focus{
+                    background-color: #ffffff;
+                    color: rgba(91, 203, 227, 1);
+                    text-decoration: none;
+                }
+            }
+        }
+        &:hover,
+        &:focus{
+            .mask{
+                background-color: rgba(91, 203, 227, 0.80);
+                h1{
+                    display: block;
+                }
+                p{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+.tfe-home-contact-information{
+    background-color: #ffffff;
+    padding-bottom: 120px;
+    padding-top: 130px;
+    h2{
+        color: #000000;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 120%;
+        margin-bottom: 25px;
+    }
+    p{
+        color: #a2a2a4;
+        font-size: 14px;
+        line-height: 120%;
+        margin-bottom: 60px;
+    }
+    i{
+        color: #000000;
+        font-size: 40px;
+        margin-bottom: 28px;
+        transition: color 0.3s ease-in-out 0s;
+    }
+    h5{
+        color: #000000;
+        font-size: 14px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        transition: color 0.3s ease-in-out 0s;
+    }
+    span{
+        color: #666666;
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .border-right-bottom{
+        border-color: rgba(204, 204, 204, 0.50);
+        border-style: solid;
+        border-width: 0 0 1px;
+        @include media-breakpoint-up(md){
+            border-width: 0 1px 0 0;
+        }
+    }
+    .col-md-4{
+        padding-bottom: 40px;
+        padding-top: 40px;
+        &:hover,
+        &:focus{
+            i{
+                color: #5bcbe3;
+            }
+            h5{
+                color: #5bcbe3;
+            }
+        }
+    }
+}

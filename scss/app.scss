@@ -1,0 +1,57 @@
+/* ==========================
+*  TABLE CONTENT
+============================= */
+
+/* ==========================
+*  1.0 Bootstrap 4
+*  2.0 Font awesome 4.7.0
+*  3.0 @font-face
+*  4.0 Global-CSS
+*  5.0 Global-header-CSS
+*  6.0 Global-footer-CSS
+*  7.0 Home page
+*  8.0 Aboutus page
+*  9.0 Ourservices page
+============================= */
+
+/* ==========================
+*  1.0 Bootstrap 4
+============================= */
+@import "bootstrap-alpha/bootstrap.scss";
+/* ==========================
+*  2.0 Font awesome 4.7.0
+============================= */
+@import "font-awesome/font-awesome.scss";
+/* ==========================
+*  3.0 @font-face
+============================= */
+@import "include/fonts-mixin.scss";
+@import "include/fonts.scss";
+/* ==========================
+*  4.0 Global-CSS
+============================= */
+@import "include/global.scss";
+/* ==========================
+*  5.0 Global-header-CSS
+============================= */
+@import "include/global-header.scss";
+/* ==========================
+*  6.0 Global-footer-CSS
+============================= */
+@import "include/global-footer.scss";
+/* ==========================
+*  7.0 Home page
+============================= */
+@import "include/home-page.scss";
+/* ==========================
+*  8.0 Aboutus page
+============================= */
+@import "include/aboutus.scss";
+/* ==========================
+*  9.0 Ourservices page
+============================= */
+@import "include/ourservices.scss";
+/* ==========================
+*  10.0 Contactus page
+============================= */
+@import "include/contactus.scss";

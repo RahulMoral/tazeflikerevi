@@ -1,0 +1,37 @@
+footer{
+    background-color: #292828;
+    .container-fluid{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .list-inline{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        @include media-breakpoint-up(lg){
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        .list-inline-item{
+            &:not(:last-child){
+                margin-right: 10px;
+            }
+            .list-inline-link{
+                color: #666666;
+                font-size: 14px;
+                transition: color 0.3s ease-in-out 0s;
+                &:hover,
+                &:focus{
+                    color: #5bcbe3;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    p{
+        color: #666666;
+        font-size: 14px;
+        span{
+            color: #ffffff;
+        }
+    }
+}
